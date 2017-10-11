@@ -1,0 +1,15 @@
+Title:              Passage Mural
+By:                 Jason Rohrer
+Year:               2008
+Copyright Notice:   Placed in the Public Domain
+
+
+Image Aspect Ratio: 4x3
+
+
+
+Notes:
+
+--Two resolution-independent vector graphic files (EPS and PDF) are included.  These files draw a colored square for each pixel.
+
+--One original resolution bitmap file (PNG) is included.  This can be blown up to any desired resolution using "None" for interpolation to preserve the sharp pixels.

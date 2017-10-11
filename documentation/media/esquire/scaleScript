@@ -1,0 +1,17 @@
+convert 3wd.png -scale 5000% fullRes/03.png
+convert 4wd.png -scale 5000% fullRes/04.png
+convert 5wd.png -scale 5000% fullRes/05.png
+convert 6wd.png -scale 5000% fullRes/06.png
+convert 7wd.png -scale 5000% fullRes/07.png
+convert 8wd.png -scale 5000% fullRes/08.png
+convert 9wd.png -scale 5000% fullRes/09.png
+convert 10wd.png -scale 5000% fullRes/10.png
+
+convert chestWD.png -scale 5000% fullRes/chest.png
+convert chestEmptyWD.png -scale 5000% fullRes/chestEmpty.png
+convert chestFullWD.png -scale 5000% fullRes/chestFull.png
+
+
+convert lifetimeOfPossibilityWD.png -scale 5000% fullRes/lifetimeOfPossibility.png
+convert lifetimeOfMemoriesWD.png -scale 5000% fullRes/lifetimeOfMemories.png
+convert walkingDownWD.png -scale 5000% fullRes/walkingDown.png

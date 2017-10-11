@@ -1,0 +1,249 @@
+<html>
+
+<head>
+<title>
+Passage: a Gamma256 video game by Jason Rohrer
+</title>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#0000ff">
+
+<center>
+<img src="screen.png">
+
+<h1>Passage</h1>
+a video game by <a href="http://hcsoftware.sf.net/jason-rohrer">Jason Rohrer</a><br>
+<br>
+
+<font size=5>[try Jason Rohrer's latest game <a href="http://insideastarfilledsky.net">Inside a Star-filled Sky</a>]</font>
+
+<!--[to read about more art games, checkout <a href="http://northcountrynotes.org/jason-rohrer/arthouseGames">Arthouse Games</a>]-->
+</center>
+<br>
+<br>
+This was selected for exhibition at <a href="http://kokoromi.org/projects/gamma256">Kokoromi's Gamma256</a> event.<br>
+<br>
+<center>
+<table border=0 width=70%>
+<tr>
+<td>Image size:</td>
+<td>100x16 (100x12 play surface with a 4-pixel scoreboard above)</td>
+</tr>
+<tr>
+<td>Aspect ratio:</td>
+<td>25:4</td>
+</tr>
+<tr>
+<td>Display size:</td>
+<td>600x96 (for 640x480 fullscreen letterbox mode)</td>
+</tr>
+<tr>
+<td>Game time:</td>
+<td>5 minutes</td>
+</tr>
+<tr>
+<tr>
+<td>Version:</td>
+<td>3 (released December 13, 2007) [<a href="http://hcsoftware.cvs.sourceforge.net/*checkout*/hcsoftware/gamma256/documentation/changeLog.txt">change log</a>]</td>
+</tr>
+<tr>
+<td valign=top>Platforms:</td>
+<td valign=top>
+--Windows XP with XBox 360 controller (or keyboard)<br>
+--MacOS X 10.2 and later (for PPC build)<br>
+--MacOS X 10.5 and later (for Intel build)<br>
+--GNU/Linux (compile yourself from source)
+</td>
+</tr>
+<tr>
+<td>License:</td>
+<td>Placed in the public domain</td>
+</tr>
+<tr>
+<td valign=top>Downloads:</td>
+<td valign=top>
+<b>PLEASE</b> read the control notes below before playing.  Some people have been confused.<br>
+Control Hint:  you can move up and down too.<br>
+General Hint:  The game only lasts 5 minutes.  If you don't get the point at first, please keep playing.<br>
+
+<table border=0 cellspacing=10 cellpadding=0>
+<tr>
+<td>
+--<a href="http://downloads.sourceforge.net/hcsoftware/Passage_v3_Windows.exe">Passage_v3_Windows.exe</a><br>
+--<a href="http://downloads.sourceforge.net/hcsoftware/Passage_v3_MacOSX.dmg">Passage_v3_MacOSX.dmg</a> (PPC)<br>
+--<a href="http://downloads.sourceforge.net/hcsoftware/Passage_v3_IntelMacOSX.dmg">Passage_v3_IntelMacOSX.dmg</a> (Intel)<br>
+--<a href="http://downloads.sourceforge.net/hcsoftware/Passage_v4_UnixSource.tar.gz">Passage_v4_UnixSource.tar.gz</a><br>
+</td>
+<td>
+<a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=300702040&mt=8"><img src="storeBadge.png" width=174 height=58 border=0></a>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td>Explanation:</td>
+<td>Read my <a href="statement.html">Creator's Statement</a></td>
+</tr>
+
+<tr>
+<td align=center colspan=2></td>
+
+<tr>
+<td valign=top>Donations:</td>
+<td valign=top>
+Help me <a href="http://hcsoftware.sf.net/jason-rohrer/supportMyWork.php">support</a> my <a href="http://hcsoftware.sf.net/jason-rohrer/simpleLife.html">family</a><br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="jcr13@users.sf.net">
+<input type="hidden" name="item_name" value="Support Jason Rohrer's Work">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="http://hcsoftware.sf.net/jason-rohrer/supportMyWork.php">
+<input type="hidden" name="cancel_return" value="http://hcsoftware.sf.net/jason-rohrer">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="tax" value="0">
+<input type="hidden" name="custom" value="Jason_Rohrer_donate">
+<input type="hidden" name="notify_url" value="http://hcsoftware.sourceforge.net/cgi-bin/donationTracker.pl">
+
+<input type="image" src="https://www.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" ALIGN=MIDDLE> 
+<br>
+[<A HREF="http://hcsoftware.sf.net/jason-rohrer/mail.shtml">donate by mail</A>]
+</form>
+</td>
+</tr>
+
+
+</table>
+</center>
+
+Note: To build from source, you must have the <a href="http://libsdl.org">SDL</a> development library installed.
+<br>
+<br>
+
+Control notes:
+<ul>
+<li>Press any button (or key) to start the game.
+<li>Use left analog stick (or arrow keys) to move character (up, down, left, right).
+<li>F (on keyboard) to toggle fullscreen mode.
+<li>B (on keyboard) to adjust screen blow-up factor.
+<li>Q or ESC (on keyboard) to quit.
+</ul>
+
+Display notes:
+<ul>
+<li>Default full-screen resolution is 640x480.
+<li>Some monitors (like LCD?) don't do well at low resolutions (blurry pixels).
+<li>Edit the files in the <i>settings</i> folder to change the full screen resolution (try 1024 for <i>screenWidth.ini</i> and 768 for <i>screenHeight.ini</i>).
+<li>Put a zero in <i>fullscreen.ini</i> to make the game start in windowed mode.
+</ul>
+
+Credits:
+<ul>
+<li>All code, music, graphics, fonts, and animation by me.
+<li>I used <a href="http://mtpaint.sf.net">mtPaint</a> to make all of the pixel art.
+<li>I used the <a href="http://libsdl.org">SDL Library</a> for cross-platform screen, sound, and user input.
+<li>I used <a href="http://www.mingw.org">MinGW</a> to build the game for Windows.
+</ul>
+
+
+Discussion Log:
+<ul>
+<li><a href="http://www.watercoolergames.org/archives/000865.shtml">Water Cooler Games</a>, December 1, 2007
+<li><a href="http://kotaku.com/gaming/timewaster/weird-artistic-timewaster-of-the-day-passage-328926.php">Kotaku</a> December 2, 2007
+<li><a href="http://www.pixeljoint.com/2007/12/02/2385/Emotional_Pixel_Art_Game.htm">Pixel Joint</a>, December 2, 2007
+<li><a href="http://www.forumopolis.com/showthread.php?t=64017">Forumopolis</a>, December 2, 2007
+<li><a href="http://gadgets.boingboing.net/2007/12/03/play-this-free-game.html">Boing Boing</a>, December 3, 2007
+<li><a href="http://www.greyfade.com/blog/?p=77">Floating in Space</a>, December 3, 2007
+<li><a href="http://laist.com/2007/12/04/you_gotta_try_p.php">LAist</a>, December 4, 2007
+<li><a href="http://playthisthing.com/passage">Play This Thing</a>, December 5, 2007
+<li><a href="http://decisionproblem.com/seminar/?p=176">Game Design Advance</a>, December 5, 2007
+<li><a href="http://www.destructoid.com/blogs/LordRegulus/please-play-this-game-i-m-serious--57755.phtml">LordRegulus' Blogs</a>, December 5, 2007
+<li><a href="http://captainwaycool.blogspot.com/2007/12/passage-or-oh-holy-god-im-almost-24.html">Captain Waycool</a>, December 5, 2007
+<li><a href="http://www.hiwiller.com/2007/12/06/passage-cont/">Zack Hiwiller</a>, December 6, 2007
+<li><a href="http://www.rockpapershotgun.com/?p=716">Rock, Paper, Shotgun</a>, December 7, 2007
+<li><a href="http://www.raphkoster.com/2007/12/07/passage-the-latest-art-game-hit/">Raph Koster</a>, December 7, 2007
+<li><a href="http://indygamer.blogspot.com/2007/12/news_08.html">Independent Gaming</a>, December 8, 2007
+<li><a href="http://forums.seriouszone.com/showthread.php?t=54294
+">Seriously!</a>, December 8, 2007
+<li><a href="http://www.shacknews.com/laryn.x?id=15745042">Shacknews</a>, December 8, 2007
+<li><a href="http://www.uberclub.org/comments.php?DiscussionID=537">Uberclub</a>, December 9, 2007
+<li><a href="http://kindercore.com/words/2007/12/10/games-and-metaphors/">Kindercore</a>, December 10, 2007
+<li><a href="http://www.joystiq.com/2007/12/11/passage-is-a-lifetime-in-five-minutes/">Jostiq</a>, December 11, 2007
+<li><a href="http://www.destructoid.com/-i-passage-i-the-greatest-five-minute-long-game-ever-made-58961.phtml">Destructoid</a>, December 11, 2007
+<li><a href="http://www.destructoid.com/-i-passage-i-gets-modded-the-mr-destructoid-story-59079.phtml">Destructoid (bizarre mod of Passage)</a>, December 11, 2007
+<li><a href="http://www.destructoid.com/blogs/ShadowXOR/a-serious-question-about-life-time-and-work-inspired-by-passage--58993.phtml">ShadowXOR's Blog</a>, December 11, 2007
+<li><a href="http://www.metafilter.com/67369/Life-Is-Short">MetaFilter</a>, December 11, 2007
+<li><a href="http://www.mondo-pixel.com/2007/12/11/mil-juegos-sumamente-interesantes-21000-passage/">Mondopixel</a>, December 11, 2007
+<li><a href="http://shangrilatowers.blogspot.com/2007/12/links-arthouse-games.html">Shangrila Towers</a>, December 11, 2007
+<li><a href="http://www.welcometopixelton.com/2007/12/11/free-indie-game-to-break-your-hearts-passage/">Welcome to Pixelton</a>, December 11, 2007
+<li><a href="http://tiffany.vox.com/library/post/passage-1.html">.tiff's blog</a>, December 11, 2007
+<li><a href="http://www.gamespite.net/talkingtime/showthread.php?t=2457">Talking Time</a>, December 11, 2007
+<li><a href="http://board.crewcial.org/topic/238427/&r=12">Crewcial</a>, December 12, 2007
+<li><a href="http://www.neogaf.com/forum/showthread.php?t=215988">NeoGAFF</a>, December 12, 2007
+<li><a href="http://affableamerican.blogspot.com/2007/12/games-and-art.html">The Affable American</a>, December 12, 2007
+<li><a href="http://boards.1up.com/zd/board/message?board.id=games&thread.id=510724">1Up Boards</a>, December 12, 2007
+<li><a href="http://gnomeslair.blogspot.com/2007/12/passage.html">Gnome's Lair</a>, December 12, 2007
+<li><a href="http://www.slate.com/id/2179398/entry/0/">Slate</a>, December 12, 2007
+<li><a href="http://www.3dmm.com/showthread.php?t=26160">3dmm</a>, December 12, 2007
+<li><a href="http://tigsource.com/articles/2007/12/12/the-games-of-gamma-256">TIGSource</a>, December 12, 2007
+<li><a href="http://www.overgame.com/items/20356_passage-le-jeu-de-la-vie.html">Overgame</a>, December 13, 2007
+<li><a href="http://www.journaldugamer.com/index.php?2007/12/14/6564-un-passage-de-5-minutes">Le Journal du Gamer</a>, December 14, 2007
+<li><a href="http://bbrathwaite.wordpress.com/2007/12/15/passage-play-session/">Applied Game Design</a>, December 15, 2007
+<li><a href="http://www.quartertothree.com/game-talk/showthread.php?t=40905">Quarter To Three Forums</a>, December 20, 2007
+<li><a href="http://jayisgames.com/archives/2008/01/weekend_download_21.php">Jay is Games</a>, January 12, 2008
+<li><a href="http://images.businessweek.com/ss/07/12/1228_game_company/index_01.htm">Business Week</a>, January 14 , 2008
+<li><a href="http://www.1up.com/do/feature?pager.offset=1&cId=3165201">1UP</a>, January 14 , 2008
+<li><a href="http://gamepro.com/sony/ps2/games/features/157148.shtml">GamePro</a> (David Jaffe interview), January 17, 2008
+<li><a href="http://www.gamecritics.com/forums/showthread.php?t=13484">GameCritics</a>, January 19, 2008
+<li><a href="http://www.edrants.com/the-video-game-as-art/">Edward Champion's Blog</a>, January 21, 2008
+<li><a href="http://multiplayerblog.mtv.com/2008/01/24/why-death-should-bum-you-out-in-a-video-game/">MTV Multiplayer Blog</a> (Clint Hocking interview), January 24, 2008
+<li><a href="http://www.officialnintendomagazine.co.uk/forums/viewtopic.php?p=49197">Nintendo Magazine UK Forums</a>, January 24, 2008
+<li><a href="http://online.wsj.com/article/SB120034796455789469.html">Wall Street Journal</a>, January 25, 2008
+<li><a href="http://akihitok.typepad.jp/blog/2008/01/5passage-f4c4.html">Polar Bear Blog</a> (Japan), January 26, 2008
+<li><a href="http://forums.somethingawful.com/showthread.php?threadid=2754234">Something Awful Forums</a>, January 27, 2008
+<li><a href="http://www.gamingw.net/forums/index.php?topic=68643.0">Gaming World Forums</a>, January 27, 2008
+<li><a href="http://forums.penny-arcade.com/showthread.php?t=48341">Penny Arcade Forums</a>, January 27, 2008
+<li><a href="http://blog.shacknews.com/laryn.x?story=50995">Shacknews Blog</a>, January 28, 2008
+<li><a href="http://episteme.arstechnica.com/eve/forums/a/tpc/f/39309975/m/961009800931">Ars Technica Forums</a>, January 29, 2008
+<li><a href="http://blogs.guardian.co.uk/games/archives/2008/01/31/a_passage_through_time.html">London Guardian</a>, January 31, 2008
+<li><a href="http://www.komando.com/downloads/category.aspx?id=4454">Kim Komando Show</a>, February 2, 2008
+<li><a href="http://multiplayerblog.mtv.com/2008/02/08/why-is-david-jaffe-blasting-straight-outta-compton-and-tupac-developer-shares-his-deep-thoughts-on-music-and-games">MTV Multiplayer Blog</a> (David Jaffe interview), February 8, 2008
+<li><a href="http://www.ecrans.fr/Passage-est-une-oeuvre-d-art,3124.html">Ecrans</a> (France), February 11, 2008
+<li><a href="http://thenewgamer.com/content/archives/passage_-_question_timing">The New Gamer</a>, February 13, 2008
+<li><a href="http://www.gamelab.com/reports/2008-feb-top-5-videogames-about-love">Gamelab</a>, February 13, 2008
+<li><a href="http://grandtextauto.org/2008/02/24/pvp-portal-versus-passage/">Grand Text Auto</a>, February 24, 2008
+<li><a href="http://grandtextauto.org/2008/02/26/message-me-videogames/">Grand Text Auto</a>, February 26, 2008
+<li><a href="http://nyugames.blogspot.com/2008/03/art-in-videogames.html">NYU Games Blog</a>, March 6, 2008
+<li><a href="http://www.indiecade.com/index.php?/blog/entries/life-love-and-death-in-five-minutes/">Indiecade</a>, March 11 , 2008
+<li><a href="http://doubtthestars.blogspot.com/2008/04/passage.html">Doubt The Stars</a>, April 16, 2008
+<li><a href="http://www.wired.com/gaming/gamingreviews/commentary/games/2008/04/gamesfrontiers_421">Wired</a>, April 21, 2008
+<li><a href="http://www.lexigame.de/reviews/spc.php?subaction=showfull&id=1213799298&archive=&start_from=&ucat=13&">Lexigame</a> (Germany), June 19, 2008
+
+
+
+<!--
+<li><a href=""></a>, January , 2008
+<li><a href=""></a>, January , 2008
+<li><a href=""></a>, February , 2008
+<li><a href=""></a>, April , 2008
+<li><a href=""></a>, June , 2008
+
+-->
+</ul>
+
+
+<center>
+
+<!-- Site Meter -->
+<script type="text/javascript" src="http://s17.sitemeter.com/js/counter.js?site=s17passagegame">
+</script>
+<noscript>
+<a href="http://s17.sitemeter.com/stats.asp?site=s17passagegame" target="_top">
+<img src="http://s17.sitemeter.com/meter.asp?site=s17passagegame" alt="Site Meter" border="0"/></a>
+</noscript>
+
+</center>
+
+</body>
