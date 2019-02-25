@@ -2,8 +2,8 @@
 
 ROOT_PATH = ../../..
 
-COMPILE = g++ -g -I${ROOT_PATH} -c
-LINK = g++ -I${ROOT_PATH}
+COMPILE = $(CXX) -g -I${ROOT_PATH} -c
+LINK = $(CXX) -I${ROOT_PATH}
 
 
 

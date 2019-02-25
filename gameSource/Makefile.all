@@ -1,8 +1,8 @@
 
 ROOT_PATH = ../..
 
-COMPILE = g++ ${PLATFORM_COMPILE_FLAGS} -Wall -Wwrite-strings -Wchar-subscripts -Wparentheses -g -I${ROOT_PATH} -c
-LINK = g++ -I${ROOT_PATH}
+COMPILE = $(CXX) ${PLATFORM_COMPILE_FLAGS} -Wall -Wwrite-strings -Wchar-subscripts -Wparentheses -g -I${ROOT_PATH} -c
+LINK = $(CXX) -I${ROOT_PATH}
 
 
 
